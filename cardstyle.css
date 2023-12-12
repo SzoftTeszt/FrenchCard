@@ -25,6 +25,8 @@
     font-size:5rem;
     line-height: 0.8;
     padding: 30px;
+    align-self: flex-start;
+    text-align: center;
     
 }
 .card .row:last-child{
