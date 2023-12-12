@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.card{
+    width:500px;
+    border:1px solid black;
+    border-radius: 20px;
+    display:flex;
+    flex-direction:column;
+    background-color: #f4f4f4;
+    box-shadow: 10px 10px 7px -1px rgba(0,0,0,0.46);
+    -webkit-box-shadow: 10px 10px 7px -1px rgba(0,0,0,0.46);
+    -moz-box-shadow: 10px 10px 7px -1px rgba(0,0,0,0.46);
+    justify-content: space-between;
+}
+
+.card>.sign{
+    font-size:20rem;
+    align-self:center;
+}
+.card .row{
+    font-size:5rem;
+    line-height: 0.8;
+    padding: 30px;
+    
+}
+.card .row:last-child{
+    align-self: flex-end;
+    transform: rotate(.5turn);
+}
+
+body{
+    background-color: azure;
+}
